@@ -1,0 +1,21 @@
+{
+  "name": "erc-20",
+  "version": "1.0.0",
+  "description": "Throne ERC-20 token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "THRONE",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.4",
+    "chai-bignumber": "^3.0.0"
+  }
+}
